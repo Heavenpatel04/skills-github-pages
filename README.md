@@ -1,54 +1,175 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablet Punching Machine Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+        .header {
+            background-color: #4CAF50;
+            color: #ffffff;
+            width: 100%;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
 
-# GitHub Pages
+        .container {
+            background-color: #ffffff;
+            max-width: 900px;
+            width: 100%;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.5s ease-in;
+        }
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
 
-</header>
+        h2 {
+            color: #2196F3;
+            margin-top: 30px;
+        }
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
 
-## Step 1: Enable GitHub Pages
+        .nav-bar {
+            background-color: #4CAF50;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+        }
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+        .nav-bar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+        .nav-bar a:hover {
+            background-color: #45a049;
+            border-radius: 5px;
+        }
 
-### :keyboard: Activity: Enable GitHub Pages
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+    <div class="header">
+        Welcome To Our Information Page
+    </div>
 
-<footer>
+    <div class="nav-bar">
+        <a href="#objective">Objective</a>
+        <a href="#principle">Principle</a>
+        <a href="#components">Components</a>
+        <a href="#working">Working</a>
+        <a href="#uses">Uses</a>
+        <a href="#applications">Applications</a>
+    </div>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+    <div class="container">
+        <h1>Tablet Punching Machine</h1>
 
----
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>
+                The objective of a tablet punching machine is to efficiently compress powder or granulated materials into solid, uniform tablets of precise size, weight, and hardness. These machines are designed to ensure accuracy and consistency in pharmaceutical tablet production.
+            </p>
+        </section>
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+        <section id="principle">
+            <h2>Principle</h2>
+            <p>
+                The tablet punching machine works on the principle of compression. Powdered material is filled into a die cavity, and pressure is applied using upper and lower punches to form a solid tablet. The applied pressure ensures the tablet's mechanical strength and stability.
+            </p>
+        </section>
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+        <section id="components">
+            <h2>Components</h2>
+            <p>
+                Key components of a tablet punching machine include:
+                <ul>
+                    <li><strong>Hopper:</strong> Holds and directs powder or granules into the die cavity.</li>
+                    <li><strong>Die Cavity:</strong> Defines the tablet’s shape and size.</li>
+                    <li><strong>Punches (Upper & Lower):</strong> Compress the material into a solid tablet.</li>
+                    <li><strong>Cam Tracks:</strong> Guide the movement of the punches for proper compression.</li>
+                    <li><strong>Feeder System:</strong> Ensures continuous and even material flow.</li>
+                    <li><strong>Pressure Adjustment System:</strong> Controls the compression force to achieve desired tablet hardness.</li>
+                </ul>
+            </p>
+        </section>
 
-</footer>
+        <section id="working">
+            <h2>Working</h2>
+            <p>
+                The working of a tablet punching machine follows these key steps:
+                <ol>
+                    <li>The powder or granules are loaded into the hopper.</li>
+                    <li>Material flows into the die cavity through the feeder system.</li>
+                    <li>The upper punch descends while the lower punch rises to compress the material under controlled pressure.</li>
+                    <li>After compression, the upper punch retracts, and the lower punch ejects the formed tablet from the die cavity.</li>
+                    <li>The tablet is then collected, and the cycle continues for mass production.</li>
+                </ol>
+            </p>
+        </section>
+
+        <section id="uses">
+            <h2>Uses</h2>
+            <p>
+                Tablet punching machines are widely used in:
+                <ul>
+                    <li>Pharmaceutical industry for tablet production.</li>
+                    <li>Nutraceutical sector for manufacturing supplements.</li>
+                    <li>Food industry for creating compressed edible products.</li>
+                    <li>Chemical industry for producing detergent tablets and other solid forms.</li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="applications">
+            <h2>Applications</h2>
+            <p>
+                These machines play a vital role in:
+                <ul>
+                    <li>Research and development for testing new tablet formulations.</li>
+                    <li>Mass production of medicinal tablets in pharmaceutical plants.</li>
+                    <li>Creating chewable, effervescent, and sustained-release tablets.</li>
+                </ul>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablet Punching Machine Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
